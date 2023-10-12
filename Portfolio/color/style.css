@@ -1,0 +1,347 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #020312;
+    color: #FFFFFF;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    padding: 0 0 0 10px;
+    top:0;
+    left:0; 
+    background-color: #020312;
+  
+}
+.navbar li{
+    display: inline-block;
+    align-items: center;
+    margin: 40px;
+    padding: 0px 30px;
+   
+}
+
+.logo{
+    font-size: 35px;
+}
+.logo span{
+    color: yellowgreen;
+}
+.navbar li a{
+    color: #FFFFFF;
+    font-size: 22px;
+    border-radius: 0.5rem;
+    transition:all 0.3s ease;
+}
+
+.navbar li :hover{
+    
+    color:red;
+}
+#menu{
+    font-size: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: none;
+}
+section{
+    padding: 160px 300px;
+}
+.home{
+    background-image: url('Zwh86r.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.home-txt h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+}
+.home-txt h1{
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: 3px;
+    margin: 20px 0;
+}
+.home-txt h1 span{
+    color: red;
+}
+.home-txt h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.40s ease;
+   } 
+   .btn:hover{
+    background-color: transparent;
+    border: 1px solid red;
+   }
+.image img{
+    height: auto;
+    width: 400px;
+    margin-left: 350px;
+   }
+
+.about-txt{
+    margin-top: 50px;
+    line-height: 2.2 ;
+}
+.about-txt h2{
+    text-align: center;
+   justify-content: center;
+   font-size: 50px;
+   font-weight: 600;
+   
+}
+.about-txt h4{
+    color: red;
+    font-size: 30px;
+    margin-top: 10px;
+    letter-spacing:1px;
+}
+.about-txt p{
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing:1px;
+}
+.myskills{
+    text-align: center;
+}
+.myskills h3{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.myskills h5{
+    font-size: 30px;
+    color: red;
+    letter-spacing: 1px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+   justify-content: space-between;
+    margin-top: 50px;
+}
+.img1 img{
+    height: 300px;
+    width: 250px;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+.img1{
+    border-top: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    margin: 10px 50px;
+    padding: 0px 25px;
+    text-align: center;
+    background-color: #12141c;
+    cursor: pointer;
+}
+.img1 h4{
+    color: brown;
+    font-size:35px;
+    margin-bottom: 15px;
+}
+.img1 p{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.7;
+    letter-spacing: normal;
+    margin-bottom: 35px;
+}
+.img2 img{
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    margin-left: 40px;
+}
+.img2{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    margin: 15  px 50px;
+    padding: 30px 25px;
+    text-align: center;
+    background-color: #12141c;
+    cursor: pointer;
+}
+.img2 h4{
+ 
+    color: brown;
+    font-size:35px;
+    margin-bottom: 15px;
+    
+}
+.img2 p{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.7;
+    letter-spacing: normal;
+    margin-bottom: 35px;
+}
+.box :hover{
+    background-color: transparent;
+    transition: all 0.2s linear;
+}
+.contact{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-around; 
+}
+.cont h2{
+    font-size: 60px;
+}
+.cont h4{
+    font-size: 30px;
+    font-weight: 500;
+    color: red;
+    margin: 15px 0px;
+}
+.cont p{
+   font-size: 20px;
+   letter-spacing: 1.2;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.contact-list{
+    display: block;
+    margin-bottom: 50px;
+}
+.contact-list li{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.contact-list li a{
+    color: darkkhaki;
+    transition: all 0.3s ease;
+}
+.contact-list li a:hover{
+   color: red;
+}
+.contact-icon i{
+    height: 80px;
+    width: 80px;
+    background-color: #12141c;
+    color:red;
+    font-size: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    border-radius: 2px;
+    margin: 0px 10px;
+    transition: all 0.4s ease;
+}
+.contact-icon i:hover{
+    background-color: transparent;
+    color: yellowgreen;
+}
+.contact-form{
+    position: relative;
+}
+.contact-form form input,form textarea{
+    border: none;
+    outline: none;
+    background-color: #12141c;
+    width: 100%;
+    padding: 20px;
+    color:#FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.contact-form textarea{
+    resize: none;
+}
+.contact-form .sub{
+    background-color: red;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: 1px solid red;
+    cursor: pointer;
+    
+}
+.contact-form .sub:hover{
+    background-color: transparent;
+    
+}
+.last p{
+    text-align: center;
+    color:#FFFFFF;
+    justify-content: center;
+    padding: 80px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.top{
+    position: fixed;
+    right: 38px;
+   bottom: 38px;
+}
+.top i{
+    color:#FFFFFF;
+    background-color: red;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 2px;
+}
+@media (max-width:1400px)
+{
+header{
+    padding: 20px 16% 20;
+}
+
+}
+@media (max-width:1130px){
+
+    #menu{
+        display: block;
+    }
+    .navbar{
+        position: relative;
+        display: flex;  
+        flex-direction: column;
+        right: 0;
+        left: 0;
+        top: -600px;
+}
+.navbar li a{
+    font-size: 30px;
+    display: block;
+}
+.navbar.active{
+    top: 100%;
+}
+}
+
+
+
